@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f3f6fa;
+		background: #fff;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -135,6 +135,9 @@ input, select, textarea {
 		margin-bottom: 1em;
 		text-transform: uppercase;
 	}
+		.h1.member {
+			margin-bottom: 0.2em;
+		}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -145,6 +148,7 @@ input, select, textarea {
 	h2 {
 		font-size: 1.5em;
 		letter-spacing: 0.1em;
+		padding: 10px 0px 50px 0px;
 	}
 
 	h3 {
@@ -249,7 +253,7 @@ input, select, textarea {
 		}
 
 /* Row */
-
+	
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -446,7 +450,7 @@ input, select, textarea {
 		}
 
 			.row > * {
-				padding: 50px 0 0 50px;
+				padding: 10px 0 0 10px;
 			}
 
 			.row.gtr-uniform {
@@ -561,6 +565,7 @@ input, select, textarea {
 				}
 
 				.row > .col-4-wide {
+					
 					width: 33.33333%;
 				}
 
@@ -689,7 +694,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 40px 0 0 40px;
+						padding: 10px 0 0 10px;
 					}
 
 					.row.gtr-uniform {
@@ -934,7 +939,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 40px 0 0 40px;
+						padding: 10px 0 0 10px;
 					}
 
 					.row.gtr-uniform {
@@ -1174,12 +1179,12 @@ input, select, textarea {
 						}
 
 				.row {
-					margin-top: -30px;
+					margin-top: -60px;
 					margin-left: -30px;
 				}
 
 					.row > * {
-						padding: 30px 0 0 30px;
+						padding: 10px 0 0 10px;
 					}
 
 					.row.gtr-uniform {
@@ -1424,7 +1429,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 30px 0 0 30px;
+						padding: 10px 0 0 10px;
 					}
 
 					.row.gtr-uniform {
@@ -1963,22 +1968,22 @@ input, select, textarea {
 				}
 
 			.icon.circle.fa-github {
-				background: #dcad8b;
+				background: #000000;
 				color: #fff;
 			}
 
 				.icon.circle.fa-github:hover {
-					background: #e1b89b;
+					background: #313131;
 				}
-
-			.icon.circle.fa-dribbble {
-				background: #da83ae;
-				color: #fff;
+			.icon.circle.fa-linkedin{
+				background: transparent;
+				color: #3a62c6;
 			}
-
-				.icon.circle.fa-dribbble:hover {
-					background: #df93b8;
+				.icon.circle.fa-linkedin:hover{
+					color: #6d87c9;
+					
 				}
+			
 
 		.icon.featured {
 			cursor: default;
@@ -2734,7 +2739,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		/* background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg"); */
+		background-color: #fff;
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
@@ -3478,3 +3483,60 @@ input, select, textarea {
 			}
 
 	}
+	.user {
+		display: inline-block;
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		background-image: url('../../images/default.jpeg');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+	  }
+	.james {
+		background-image: url('../../images/james.jpg');
+	}
+	.anivrit {
+		background-image: url('../../images/anivrit.png');
+	}
+	.prateek {
+		background-image: url('../../images/prateek.jpeg')
+	}
+	.syed {
+		background-image: url('../../images/default.jpeg');
+	}
+	.ravi {
+		background-image: url('../../images/default.jpeg');
+	}
+	.sam {
+		background-image: url('../../images/default.jpeg');
+	}
+	.joseph {
+		background-image: url('../../images/default.jpeg');
+	}
+	.anica {
+		background-image: url('../../images/default.jpeg');
+	}
+	.claire {
+		background-image: url('../../images/default.jpeg');
+	}
+	.michael {
+		background-image: url('../../images/default.jpeg');
+	}
+	.gavin {
+		background-image: url('../../images/default.jpeg');
+	}
+	.tyler {
+		background-image: url('../../images/default.jpeg');
+	}
+	.sivansh {
+		background-image: url('../../images/default.jpeg');
+	}
+	.kunal {
+		background-image: url('../../images/default.jpeg');
+	}
+	.eric {
+		background-image: url('../../images/default.jpeg');
+	}
+
+	
